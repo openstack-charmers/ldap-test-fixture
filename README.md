@@ -14,3 +14,8 @@ The password for each is 'crapper'.
 
 The password for the admin administrator (cn=admin,dc=test,dc=com) on the
 server is also 'crapper'.
+
+phpldapadmin is also installed on the server and can be accessed on:
+
+    http://<server-ip>/phpldapadmin
+

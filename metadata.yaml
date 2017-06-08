@@ -6,3 +6,6 @@ tags:
   - misc
 series:
   - xenial
+  - trusty
+  - yakkety
+  - zesty

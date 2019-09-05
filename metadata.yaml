@@ -5,6 +5,7 @@ description: Basic LDAP install with know test data (see files/)
 tags:
   - misc
 series:
+  - disco
   - bionic
   - xenial
   - trusty

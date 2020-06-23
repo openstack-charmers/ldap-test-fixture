@@ -26,6 +26,7 @@ if [ $STOP_REQUIRED ]; then
 fi
 
 slapadd -v -c -l files/backup.ldif
+ldapmodify -Y EXTERNAL -H ldapi:// -f files/config.ldif
 
 if [ $STOP_REQUIRED ]; then
     service slapd start
